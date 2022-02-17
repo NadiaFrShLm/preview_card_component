@@ -22,8 +22,7 @@ This is a solution to the Preview card Component
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://nadiafrshlm.github.io/preview_card_component/
 
 ## My process
 
