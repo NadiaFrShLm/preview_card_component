@@ -1,0 +1,120 @@
+@import url('https://fonts.google.com/specimen/Outfit');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(215, 51%, 70%);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+body {
+  width: 1440px;
+  margin: auto;
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 1.2rem;
+  width: 23rem;
+  margin: 11rem auto;
+  padding: 1.8rem;
+}
+
+/* SECTION: img */
+.containerImg {
+  position: relative;
+  width: 100%;
+}
+.image {
+  border-radius: 10px;
+  width: 100%;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 99%;
+  background-color: hsla(178, 100%, 50%, 0.329);
+  top: 0;
+  transition: 0.3s ease;
+  opacity: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.containerImg:hover .overlay {
+  opacity: 1;
+}
+.viewIcon {
+  position: absolute;
+  width: 3.6rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* SECTION: info */
+h1 {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  color: hsl(0, 0%, 100%);
+}
+.info p {
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+  margin: 1.3rem 0;
+  font-weight: 100;
+}
+
+/* SECTION: icons */
+.icons {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  padding-bottom: 2rem;
+  border-bottom: 3px solid hsla(215, 52%, 70%, 0.2);
+}
+.followers {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+.icon {
+  height: 1.5rem;
+  margin-right: 0.7rem;
+}
+.iconBlock {
+  display: flex;
+  align-items: center;
+}
+
+/* SECTION: creator */
+.creator {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+.avatar {
+  height: 2.5rem;
+  border: 3px solid rgba(255, 255, 255, 0.468);
+  border-radius: 5rem;
+  margin-right: 1rem;
+}
+span {
+  color: hsl(0, 0%, 100%);
+}
+
+.hoverEffect:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
